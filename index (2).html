@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biodata Diri</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Arial, sans-serif;
+      background: linear-gradient(135deg, #6a11cb, #2575fc);
+      color: #333;
+    }
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      background: #fff;
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+      animation: fadeIn 1.2s ease-in-out;
+    }
+    @keyframes fadeIn {
+      from {opacity: 0; transform: translateY(30px);}
+      to {opacity: 1; transform: translateY(0);}
+    }
+    h1 {
+      text-align: center;
+      color: #2575fc;
+      margin-bottom: 20px;
+      font-size: 2.5rem;
+      letter-spacing: 2px;
+    }
+    .profile {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      gap: 25px;
+    }
+    .profile img {
+      width: 200px;
+      height: 240px;
+      object-fit: cover;
+      border-radius: 15px;
+      border: 4px solid #2575fc;
+      transition: transform 0.3s ease;
+    }
+    .profile img:hover {
+      transform: scale(1.05);
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      font-size: 1.05rem;
+    }
+    td {
+      padding: 10px 12px;
+      border-bottom: 1px solid #eee;
+    }
+    td:first-child {
+      font-weight: bold;
+      color: #6a11cb;
+      width: 35%;
+    }
+    .footer {
+      margin-top: 25px;
+      text-align: center;
+      font-size: 0.95rem;
+      color: #555;
+    }
+    marquee {
+      margin: 15px 0;
+      font-size: 1.1rem;
+      color: #fff;
+      background: #2575fc;
+      padding: 8px;
+      border-radius: 10px;
+    }
+    /* Tombol Instagram */
+    .social {
+      margin-top: 20px;
+      text-align: center;
+    }
+    .social a {
+      display: inline-block;
+      text-decoration: none;
+      background: #E4405F;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 30px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    .social a:hover {
+      background: #d62d54;
+    }
+  </style>
+  <!-- Font Awesome untuk icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <marquee>Selamat Datang di Halaman Biodata Diri Saya 🌟</marquee>
+
+  <div class="container">
+    <h1>BIODATA DIRI</h1>
+    <div class="profile">
+      <img src="foto.jpg" alt="Foto Profil">
+      <table>
+        <tr>
+          <td>Nama</td>
+          <td>: M.Afredho Astralla</td>
+        </tr>
+        <tr>
+          <td>Tempat, Tanggal Lahir</td>
+          <td>: Pekanbaru, 17 Oktober 2008</td>
+        </tr>
+        <tr>
+          <td>Alamat</td>
+          <td>: Perum Utama Permai Blok D.1</td>
+        </tr>
+        <tr>
+          <td>Jenis Kelamin</td>
+          <td>: Laki-laki</td>
+        </tr>
+        <tr>
+          <td>Email</td>
+          <td>: astrallaredho@gmail.com</td>
+        </tr>
+        <tr>
+          <td>Hobi</td>
+          <td>: Membaca, Menulis, Bermain Futsal</td>
+        </tr>
+        <tr>
+          <td>Cita-cita</td>
+          <td>: Polisi</td>
+        </tr>
+      </table>
+    </div>
+
+    <!-- Link Instagram -->
+    <div class="social">
+      <a href="https://www.instagram.com/dho_edho_99?igsh=MXQ4bXd1czN5bnJyZA==" target="_blank">
+        <i class="fa-brands fa-instagram"></i> Instagram Saya
+      </a>
+    </div>
+
+    <div class="footer">
+      &copy; 2025 | Dibuat dengan ❤ oleh Redho Astralla
+    </div>
+  </div>
+</body>
+</html>
